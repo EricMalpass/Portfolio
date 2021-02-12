@@ -11,12 +11,11 @@
         function amazingJavaeffect() {
            var img1 = "./portfolio/images/travelpicture.jpg";
            var img2 = "./portfolio/images/formalpicture.jpg";
-           
            var imgElement = document.getElementById('amazingJavaeffect');
-        
            imgElement.src = (imgElement.src === img1)? img2 : img1;
+           console.log(imgElement.src);
         }
-        </script>
+    </script>
 </head>
 <header>
     <h1>Eric Malpass Portfolio</h1>
@@ -36,9 +35,7 @@
     </nav>
 </header>
 <body>
-    <figure>
-        <img src="./portfolio/images/travelpicture.jpg" id="amazingJavaeffect" onclick="amazingJavaeffect();"/>
-    </figure> 
+    <figure></figure> 
     <main>
         <aside>
             <div>hello</div>
