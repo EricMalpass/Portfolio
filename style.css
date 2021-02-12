@@ -33,38 +33,35 @@ nav {
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-  }
+}
   
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .dropdown-content {
-    /*display: none; This causing an error*/
+.dropdown-content {
+    display: none;
     position: absolute;
     background-color: #990a46;
     min-width: 160px;
     box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
 
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
 }
-h1 {
-    padding-right: 450px;
-}
+.dropdown:hover .dropdown-content {
+display: block;}
 
 /*Main picture*/
 figure {
     height: 800px;
-    width: 100%;
+    width: 90%;
     margin-bottom: 25px;
     background-image: url("./portfolio/images/travelpicture.jpg");
     background-size: cover;
@@ -75,8 +72,18 @@ figure {
 
 section{
     border-style: solid;
-    border-color: #ffffff;
+    border-color: #420909;
     border-width: 5px;
+    background-color: chocolate;
+    width: 80%;
+}
+aside {
+    float: right;
+    border-style: solid;
+    border-color: #420909;
+    border-width: 5px;
+    background-color: blue;
+    width: 19%;
 }
 
 

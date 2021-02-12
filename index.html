@@ -7,6 +7,16 @@
     <title>Eric Malpass Portfolio</title>
     <link rel="reset" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <script>
+        function amazingJavaeffect() {
+           var img1 = "./portfolio/images/travelpicture.jpg";
+           var img2 = "./portfolio/images/formalpicture.jpg";
+           
+           var imgElement = document.getElementById('amazingJavaeffect');
+        
+           imgElement.src = (imgElement.src === img1)? img2 : img1;
+        }
+        </script>
 </head>
 <header>
     <h1>Eric Malpass Portfolio</h1>
@@ -14,18 +24,25 @@
     <h2>*A work in progress</h2>
     <nav>
         <ul>
+        <div class="dropdown">
         <button class="dropbutton">Sections</button>
             <div class="dropdown-content">
                 <a href="#bio">Biography</a>
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
             </div>   
+        </div>
         </ul>
     </nav>
 </header>
 <body>
-    <figure></figure> 
+    <figure>
+        <img src="./portfolio/images/travelpicture.jpg" id="amazingJavaeffect" onclick="amazingJavaeffect();"/>
+    </figure> 
     <main>
+        <aside>
+            <div>hello</div>
+        </aside>
         <article>
             <section id="bio">
                 <h2> My Biography</h2>
@@ -50,7 +67,6 @@
 
             </section>
         </article>
-
     </main>
     <footer>
         Made by Eric Malpass
