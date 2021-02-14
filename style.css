@@ -1,5 +1,5 @@
 
-/* I'm not sure how to do this
+/* this should size the website to the users screen but I'm not sure how to do this if it is used it just makes everything ugly and this site doesn't need any more help doing that
 @media screen and (max-width: 900px) {
     .column {
       width: 100%;
@@ -58,7 +58,7 @@ nav {
 .dropdown:hover .dropdown-content {
 display: block;}
 
-/*Main picture*/
+/*Main picture the img tag shouldn't be here as it is causing the img to be overlaid and the JS is not working*/
 figure {
     height: 800px;
     width: 90%;
@@ -77,6 +77,7 @@ section{
     background-color: chocolate;
     width: 80%;
 }
+/* the amazing aside, look at it and all it's glory */ 
 aside {
     float: right;
     border-style: solid;

@@ -8,10 +8,12 @@
     <link rel="reset" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <script>
+        /* this does not work at all*/
         function amazingJavaeffect() {
            var img1 = "./portfolio/images/travelpicture.jpg";
            var img2 = "./portfolio/images/formalpicture.jpg";
-           var imgElement = document.getElementById('amazingJavaeffect');
+           var imgElement = document.getElementById('amazingJavaeffect'); /*I am missing the document and an id cture.jpg";
+           var imgElement = document*/
            imgElement.src = (imgElement.src === img1)? img2 : img1;
            console.log(imgElement.src);
         }
@@ -36,9 +38,10 @@
 </header>
 <body>
     <figure>
-        <img src="./portfolio/images/travelpicture.jpg" id="getElementById" onclick="amazingJavaeffect();"/>
-
-    </figure> 
+        <!---- I was attempting to make the img switch to another picture but was unable to get the JS to work
+               <img src="./portfolio/images/travelpicture.jpg" id="getElementById" onclick="amazingJavaeffect();"/>
+            -->
+            </figure> 
     <main>
         <aside>
             <div>hello</div>
@@ -46,6 +49,9 @@
         <article>
             <section id="bio">
                 <h2> My Biography</h2>
+                <summary>
+                    I was born and that is when my awesomeness started as you can clearly see in how amazing this page is 
+                </summary>
             </section>
             <section id="projects">
                 <h2> My Projects</h2>
