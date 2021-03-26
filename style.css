@@ -7,7 +7,7 @@
 */
 /*header and navigation bar*/
 header {
-    padding: 20px;
+    /*padding: 20px;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #0c7535;
     color: #ffffff;
@@ -59,13 +59,15 @@ nav {
 display: block;}
 
 /*Main picture the img tag shouldn't be here as it is causing the img to be overlaid and the JS is not working*/
-figure {
-    height: 800px;
-    width: 90%;
+img {
+    height: 500px;
+    width: 80%;
     margin-bottom: 25px;
-    background-image: url("./portfolio/images/travelpicture.jpg");
+    padding-top: 30px;
     background-size: cover;
     background-position: center;
+    padding-left: 375px;
+  
 }
 
 /*Main Content styling*/
@@ -75,17 +77,11 @@ section{
     border-color: #420909;
     border-width: 5px;
     background-color: chocolate;
-    width: 80%;
+    width: 100%;
+    text-align: center;
+    
 }
-/* the amazing aside, look at it and all it's glory */ 
-aside {
-    float: right;
-    border-style: solid;
-    border-color: #420909;
-    border-width: 5px;
-    background-color: blue;
-    width: 19%;
-}
+
 
 
 /*Footer styling*/

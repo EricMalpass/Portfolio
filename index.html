@@ -5,20 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric Malpass Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="reset" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <script>
-        /* this does not work at all*/
-        function amazingJavaeffect() {
-           var img1 = "./portfolio/images/travelpicture.jpg";
-           var img2 = "./portfolio/images/formalpicture.jpg";
-           var imgElement = document.getElementById('amazingJavaeffect'); /*I am missing the document and an id cture.jpg";
-           var imgElement = document*/
-           imgElement.src = (imgElement.src === img1)? img2 : img1;
-           console.log(imgElement.src);
-        }
-    </script>
 </head>
+<div class = "container">
 <header>
     <h1>Eric Malpass Portfolio</h1>
     <div></div>
@@ -37,37 +28,32 @@
     </nav>
 </header>
 <body>
-    <figure>
-        <!---- I was attempting to make the img switch to another picture but was unable to get the JS to work
-               <img src="./portfolio/images/travelpicture.jpg" id="getElementById" onclick="amazingJavaeffect();"/>
-            -->
-            </figure> 
+    <div class= "container">
+    <img src= "./portfolio/images/travelpicture.jpg" id="javaEffect" class="row align-items-center">    
+</div> 
     <main>
-        <aside>
-            <div>hello</div>
-        </aside>
         <article>
             <section id="bio">
                 <h2> My Biography</h2>
-                <summary>
+                <div>
                     I was born and that is when my awesomeness started as you can clearly see in how amazing this page is 
-                </summary>
+                </div>
             </section>
             <section id="projects">
                 <h2> My Projects</h2>
-                <a href="https://ericmalpass.github.io/Homework1/">Code Refactoring Project</a>
+                <a href="https://sosoberg.github.io/project_1/">Worth a shot app Project</a>
                 <div></div>
-                <a href="https://www.google.com">How to search for a better porfolio</a>
+                <a href="https://ericmalpass.github.io/dayPlanner/">Day Plaaner project</a>
                 <div></div>
                 <a href="https://tismes.com/">Example of a really good java porfolio</a>
             </section>
             <section id="resume">
                 <h2> Resume</h2>
                     <summary> Education</summary>
-                        <details>
+                        <p>
                         Western Washington University			    
                         Bachelor of Arts in International Business 
-                        </details>
+                        </p>
                     <summary> Work History</summary>
                     <a href="EricMalpassResume.pdf">Resume</a>
 
@@ -77,6 +63,7 @@
     <footer>
         Made by Eric Malpass
     </footer>
-    
+    </div>
+    <script src="./java.js"></script>
 </body>
 </html>
