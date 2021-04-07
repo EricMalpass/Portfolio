@@ -13,6 +13,7 @@
     
     p{ font-size: 2em; }
   }
+  
 
 body {
 background-color: black;
@@ -117,3 +118,10 @@ footer {
     font-family: 'Della Respira', serif;
 }
 
+@media screen and (max-width: 500px) {
+    .container, .header, .content, footer, img {
+      width: auto;
+    }
+    
+    p{ font-size: 2em; }
+  }
